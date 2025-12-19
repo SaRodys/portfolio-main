@@ -8,7 +8,7 @@ class NavBar extends HTMLElement {
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto p-3 bg-menu">
+            <ul class="navbar-nav mr-auto pt-3 bg-menu">
             <li class="nav-item bg-menu mb-4">
                 <a class="text-clight navhover font-basic" href="index.html">home<span class="sr-only">(current)</span></a>
             </li>

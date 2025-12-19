@@ -34,6 +34,9 @@
   background-color: transparent;
 }
 
+.navhover {
+    font-size: 150%;
+}
 .navhover:hover {
     color: var(--text-color);
     font-weight: bold;
@@ -60,8 +63,16 @@ p {
     transform: scale(1.05);
 }
 
+.footerhover {
+    font-size: 120%;
+}
+
 .footerhover:hover {
     color: var(--text-color);
     font-weight: bold;
     text-decoration: none;
+}
+
+.smooth {
+    border-radius: 10%;
 }

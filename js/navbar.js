@@ -1,7 +1,7 @@
 class NavBar extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
-      <nav class="navbar navbar-expand-lg navbar-light bg-menu">
+      <nav class="navbar navbar-expand-lg navbar-light bg-menu p-4">
         <a class="text-clight primary-font navhover" href="index.html">Sara Rodigari</a>
         <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="custom-toggler-icon">☰</span>

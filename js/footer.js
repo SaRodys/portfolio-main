@@ -1,7 +1,7 @@
 class FooterBar extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
-      <footer class="bg-menu p-4">
+      <footer class="bg-menu p-4 justify-content-center text-center">
         <div class="bg-menu mt-5">
             <h2 class="bg-menu text-clight">Contatti</h2>
             <a href="mailto:sararodigari01@gmail.com" class="text-clight footerhover">sararodigari01@gmail.com</a>

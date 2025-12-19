@@ -24,7 +24,7 @@ class NavBar extends HTMLElement {
             </li>  
             <li class="bg-transparent">
                 <a href="https://www.instagram.com/rodys__/"><img class="bg-transparent" src="./src/instagram_light.png" alt="instagram logo" width="10%"></a>
-                <a href="www.linkedin.com/in/sara-rodigari-7a56712bb"><img class="bg-transparent" src="./src/linkedin_light.png" alt="linkedin logo" width="10%"></a>
+                <a href="https://www.linkedin.com/in/sara-rodigari-7a56712bb/"><img class="bg-transparent" src="./src/linkedin_light.png" alt="linkedin logo" width="10%"></a>
             </li>   
             </ul>
         </div>

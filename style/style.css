@@ -1,0 +1,68 @@
+@import url(var.css);
+
+* {
+    background-color: var(--bg-color);
+}
+
+.text-clight {
+    color: var(--text-color-light);
+}
+
+.font-basic {
+    font-family: var(--text);
+}
+
+.primary-font {
+    font-family: var(--text);
+    font-weight: bold;
+}
+
+.title-font {
+    font-family: var(--title);
+}
+
+.bg-menu {
+    background-color: var(--bg-color-dark);
+}
+
+.bg-main-light {
+    background-color: var(--bg-color);
+}
+
+.custom-toggler-icon {
+  color: var(--text-color-light);
+  background-color: transparent;
+}
+
+.navhover:hover {
+    color: var(--text-color);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+li img, #intestazione a img {
+    transition: transform 0.1s ease-in-out;
+}
+
+li img:hover, #intestazione a img:hover {
+    transform: scale(1.2);
+}
+
+p {
+    font-size: 90%;
+    font-family: var(--text);
+}
+
+.box {
+   transition: transform 0.1s ease-in-out; 
+}
+
+.box:hover {
+    transform: scale(1.05);
+}
+
+.footerhover:hover {
+    color: var(--text-color);
+    font-weight: bold;
+    text-decoration: none;
+}

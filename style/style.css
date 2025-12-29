@@ -1,24 +1,27 @@
 @import url(var.css);
 
-* {
-    background-color: var(--bg-color);
+h2, p, a, .font-basic {
+    font-family: var(--h2);
+}
+
+header, body {
+    background-image: url(../src/paper-texture.jpg);
+    background-repeat: repeat;
+    background-position: right;
+    background-size:100%;    
 }
 
 .text-clight {
     color: var(--text-color-light);
 }
 
-.font-basic {
-    font-family: var(--text);
-}
-
 .primary-font {
-    font-family: var(--text);
+    font-family: var(--h2);
     font-weight: bold;
 }
 
 .title-font {
-    font-family: var(--title);
+    font-family: var(--h1);
 }
 
 .bg-menu {
@@ -41,6 +44,7 @@
     color: var(--text-color);
     font-weight: bold;
     text-decoration: none;
+    transition: all 0.2s ease;
 }
 
 li img, #intestazione a img {
@@ -52,7 +56,7 @@ li img:hover, #intestazione a img:hover {
 }
 
 p {
-    font-family: var(--text);
+    font-family: var(--h2);
 }
 
 .box {
@@ -75,4 +79,56 @@ p {
 
 .smooth {
     border-radius: 10%;
+}
+
+.menu-desktop {
+    width: 100%;
+    text-align: center;
+}
+
+
+
+@media (min-width: 1024px) {
+
+    main {
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 8%;
+    }
+
+    .skill-item {
+        position: relative;
+    }
+
+    .skill-tooltip {
+        position: absolute;
+        bottom: 110%;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 150%;
+        background: var(--text-color);
+        color: var(--text-color-light);
+        padding: 5%;
+        opacity: 0;
+        pointer-events: none;
+        transition: opacity 0.3s ease;
+        z-index: 10;
+        text-align: center;
+    }
+
+    .skill-item:hover .skill-tooltip {
+        opacity: 1;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .reduce-width {
+        width: 6%;
+    }
+
+    .font-basic {
+        font-size: 100%;
+    }
+
 }

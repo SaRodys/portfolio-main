@@ -9,115 +9,272 @@
     <link rel="stylesheet" href="style/var.css">
     <link rel="script" href="js/effect.js">    
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Proza+Libre:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fascinate&family=Proza+Libre:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 </head>
 <body>
     <header>
         <script src="js/navbar.js"></script>
-        <nav-bar></nav-bar>    
+        <nav-bar class="d-lg-none d-md-none"></nav-bar>    
         
-        <div class="pt-5 mt-4 mr-4 pl-4 pr-2" id="intestazione">
-            <div class="col-5 pb-5">
-                <h2 class="primary-font mb-4">Portfolio 2025</h2>
-                <h1 class="title-font mb-4">Digital communication designer</h1>
-                <a href="https://www.instagram.com/rodys__/"><img src="./src/instagram.png" alt="instagram logo" width="25%"></a>
-                <a href="https://www.linkedin.com/in/sara-rodigari-7a56712bb/"><img src="./src/linkedin.png" alt="linkedin logo" width="28%"></a>
+        <div class="pt-5 mt-4 ml-lg-5 pl-4 pr-2 m-md-0 mr-md-5 margin-large bg-transparent" id="intestazione">
+            <div class="col-5 col-md-12 pb-5">
+                <div class="row align-items-center intro ">
+                    <h3 class="col-auto primary-font mb-4">Portfolio 2025</h3> 
+                    <h3 class="col-auto primary-font mb-4 d-none d-lg-block d-md-block">|</h3>
+                    <h3 class="col-auto primary-font mb-4 d-none d-sm-block">Sara Rodigari</h3>
+                    <h3 class="col-auto primary-font mb-4 d-none d-md-none d-lg-block">|</h3>
+                    <div class="col-auto primary-font mb-4 d-none d-lg-block">
+                        <a href="https://www.instagram.com/rodys__/"><img src="./src/instagram.png" alt="instagram logo" width="35%"></a>
+                        <a href="https://www.linkedin.com/in/sara-rodigari-7a56712bb/"><img src="./src/linkedin.png" alt="linkedin logo" width="39%"></a>
+                    </div>
+                </div>
+                <h1 class="mb-4 pb-lg-0 mt-lg-5 col-md-8 col-lg-6 pl-0">Digital communication designer</h1>
+                <a href="https://www.instagram.com/rodys__/" class="d-lg-none d-md-none"><img src="./src/instagram.png" alt="instagram logo" width="25%"></a>
+                <a href="https://www.linkedin.com/in/sara-rodigari-7a56712bb/" class="d-lg-none d-md-none"><img src="./src/linkedin.png" alt="linkedin logo" width="28%"></a>
             </div>
         </div>
+
+        <script src="js/navbar-desktop.js"></script>
+        <nav-bar-desktop class="d-none d-md-block d-lg-block"></nav-bar-desktop>
     </header>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
     <main>
-        <section class="pl-5 pr-5">
-            <h2 class="primary-font mt-5">Benvenut* nel mio portfolio</h2>
-            <div class="container row mt-4 mb-5 p-0">
-                <div class="col-4 mr-5">
-                    <img src="./src/profilo.png" alt="foto Sara Rodigari" width="160%" class="bg-menu rounded">
-                </div>
-                <div class="col-6 p-0 pl-3 pt-2">
-                    <p>Mi chiamo Sara Rodigari e ho una formazione incentrata sui nuovi media digitali, il design e la comunicazione. Sono una persona solare e determinata, sempre pronta ad affrontare nuove sfide con entusiasmo e precisione.</p>
-                </div>
+        <section class="row align-items-stretch ml-3 mr-3 mt-5">
+            <div class="col-12 order-1 d-lg-none d-md-none mb-4">
+                <h2 class="font-weight-bold benvenuti">Benvenut* nel mio portfolio!</h2>
             </div>
-        </section>
-        <section style="margin-top: 20%;" class="pl-5 pr-5 ">
-            <h2 class="primary-font mb-5">Eccoti un’anteprima dei miei progetti...</h2>
-            <div class="mb-4">
-                <div class="bg-menu container row m-1 rounded align-items-center box">
-                    <div class="col-4 p-0 mt-2 mb-2 ml-0 mr-3 bg-menu">
-                        <img src="./src/MeepleMeet.png" alt="anteprima progetto Meeple Meet" width="100%" class="smooth">
-                    </div>
-                    <div class="col-7 bg-transparent">
-                        <h2 class="title-font font-weight-bold bg-transparent text-clight">MeepleMeet</h2>
-                        <h3 class="font-basic bg-transparent text-clight">Progettazione applicazione social</h3>
-                    </div>
-                </div>
+            <div class="col-6 col-lg-4 order-2 order-lg-1 mr-lg-5 col-md-4">
+                <img src="./src/profilo.png" alt="foto Sara Rodigari" class="bg-menu pl-lg-5 pr-lg-5 w-100 rounded">
             </div>
-            <div class="mb-4">
-                <div class="bg-menu container row m-1 rounded align-items-center  box">
-                    <div class="col-4 p-0 mt-2 mb-2 ml-0 mr-3 bg-menu">
-                        <img src="./src/HomeGarden.png" alt="anteprima progetto Home Garden" width="100%" class="smooth">
-                    </div>
-                    <div class="col-7 bg-transparent">
-                        <h2 class="title-font font-weight-bold bg-transparent text-clight">Home Garden</h2>
-                        <h3 class="font-basic bg-transparent text-clight">Web design e web developer</h3>
-                    </div>
-                </div>
-            </div>
-            <div class="mb-5">
-                <div class="bg-menu container row m-1 rounded align-items-center  box">
-                    <div class="col-4 p-0 mt-2 mb-2 ml-0 mr-3 bg-menu">
-                        <img src="./src/TenutaCollotta.png" alt="anteprima progetto Home Garden" width="100%" class="smooth">
-                    </div>
-                    <div class="col-7 bg-transparent">
-                        <h2 class="title-font font-weight-bold bg-transparent text-clight">Tenuta Collotta</h2>
-                        <h3 class="font-basic bg-transparent text-clight">Social media strategist</h3>
-                    </div>
-                </div>
+            <div class="col-6 col-lg-7 order-3 order-lg-2 d-flex flex-column">
+                <h2 class="font-weight-bold benvenuti d-none d-lg-block d-md-block mb-lg-5 mt-lg-5 reduce-font mb-md-4">Benvenut* nel mio portfolio!</h2>
+                <p>Mi chiamo Sara Rodigari e ho una formazione incentrata sui nuovi media digitali,
+                il design e la comunicazione. Sono una persona solare e determinata, sempre pronta
+                ad affrontare nuove sfide con entusiasmo e precisione.</p>
             </div>
         </section>
 
-        <section style="margin-top: 20%;">
-            <h2 class="primary-font mb-5 pl-5 pr-5">e delle mie software skills e conoscenze tecniche...</h2>
+        <section class="pl-5 pr-5 progetti">
+            <h2 class="mb-4 mb-lg-5 benvenuti reduce-font">Eccoti un’anteprima dei miei progetti...</h2>
+            <div id="carouselExampleCaptions" class="carousel slide">
+                <div class="carousel-indicators m-5 d-lg-none d-md-none d-sm-box">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner bg-menu p-1 pt-4 rounded">
+                    <div class="carousel-item active">
+                        <div class="row align-items-center justify-content-center">
+                            <div class="col-lg-1 ml-lg-2 d-md-none"></div>
+                            <div class="col-lg-4 col-md-5 text-center mb-3">
+                                <img src="./src/MeepleMeet.png" class="img-fluid mb-3 rounded w-75" alt="Anteprima MeepleMeet">
+                            </div>
+                            <div class="d-none d-lg-block d-md-block col-lg-5 col-md-5">
+                                <h2 class="font-weight-bold text-clight">MeepleMeet</h2>
+                                <p>Progettazione applicazione social</p>
+                            </div>
+                        </div>
+                        <h2 class="border border-0 rounded d-lg-none d-md-none d-sm-block text-clight text-center p-2 ml-5 mr-5">MeepleMeet</h2>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row align-items-center justify-content-center">
+                            <div class="col-lg-1 ml-lg-2 d-md-none"></div>
+                            <div class="col-lg-4 col-md-5 text-center mb-3">
+                                <img src="./src/HomeGarden.png" class="img-fluid mb-3 rounded w-75" alt="Anteprima MeepleMeet">
+                            </div>
+                            <div class="d-none d-lg-block d-md-block col-lg-5 col-md-5">
+                                <h2 class="font-weight-bold text-clight">Home Garden</h2>
+                                <p>Web design e web developer</p>
+                            </div>
+                        </div>
+                        <h2 class="border border-0 rounded d-lg-none d-sm-block text-clight text-center p-2 ml-5 mr-5 d-md-none">
+                                Home Garden
+                        </h2>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row align-items-center justify-content-center">
+                            <div class="col-lg-1 ml-lg-2 d-md-none"></div>
+                            <div class="col-lg-4 col-md-5 text-center mb-3">
+                                <img src="./src/TenutaCollotta.png" class="img-fluid mb-3 rounded w-75" alt="Anteprima MeepleMeet">
+                            </div>
+                            <div class="d-none d-lg-block d-md-block col-lg-5 col-md-5">
+                                <h2 class="font-weight-bold text-clight">Tenuta Collotta</h2>
+                                <p>Social media strategist</p>
+                            </div>
+                        </div>
+                        <h2 class="border border-0 rounded d-lg-none d-sm-block text-clight text-center p-2 ml-5 mr-5 d-md-none">
+                                Tenuta Collotta
+                        </h2>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button"
+                        data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="prev">
+                    <i class="bi bi-caret-left-fill carousel-icon"></i>
+                    <span class="visually-hidden">Precedente</span>
+                </button>
+
+                <button class="carousel-control-next" type="button"
+                        data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="next">
+                    <i class="bi bi-caret-right-fill carousel-icon"></i>
+                    <span class="visually-hidden">Successivo</span>
+                </button>
+            </div>
+        </section>
+
+        <section class="progetti pl-5 pr-5">
+            <h2 class="mb-4 mb-lg-5 benvenuti reduce-font">e delle mie software skills e conoscenze tecniche...</h2>
             <div class="container">
-                <div id="skills" class="row align-items-start"></div>
+                <div id="skills" class="row"></div>
             </div>
         </section>
     </main>
     <script src="./js/skills.js"></script>
 
-    <footer style="margin-top: 20%;">
+    <footer class="progetti">
         <script src="js/footer.js"></script>
         <footer-bar></footer-bar>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
 </html>
 
-<style>
+<style>   
     body {
         background-color: var(--bg-color);
     }
-    h2 {
-        font-size: 1.5rem;
-    }
-    h1 {
-        font-size: 2.3rem;
-    }
-    h3 {
-        font-size: 1.2rem;
+
+    h1, h2 {
+        font-family: var(--h1);
     }
 
-#intestazione {
-    background-image: url(./src/icona2.png);
-    background-repeat: no-repeat;
-    background-position: right;
-    background-size:auto 100%;
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        display: none;
+    }
+
+    .carousel-icon {
+        font-size: 2.5rem;
+        color: var(--text-color-light);
+    }
+
+    .carousel-control-prev:hover .carousel-icon,
+    .carousel-control-next:hover .carousel-icon {
+        transform: scale(1.2);
+    }
+
+
+     @media (max-width: 1024px) {
+        h2 {
+            font-size: 1.3rem;
+        }
+
+        h1 {
+            font-size: 2rem;
+        }
+
+        h4 {
+            font-size: 1.2rem;
+        }
+        
+        #intestazione {
+            background-image: url(./src/icona2.png);
+            background-repeat: no-repeat;
+            background-position: right;
+            background-size:auto 90%;
+        }
+
+        .immagine-profilo {
+            width: 160%;
+        }
+
+        .progetti {
+            margin-top: 20%
+        }
+     }
+
+    @media (min-width: 601px) {
+    h2, h3 {
+        font-size: 200%;
+    }
+
+    h1{
+        font-size: 5.3rem;
+        font-weight: bold;;
+    }
+
+    p {
+        font-size: 150%;
+    }
+
+    .margin-large {
+        margin-left: 10%;
+    }
+
+    #intestazione {
+        background-image: url(./src/icona.png);
+        background-repeat: no-repeat;
+        background-position: bottom right;
+        background-size:auto 150%;
+        padding-bottom: 5%;
+    }
+
+    .intro {
+        width: 140%;
+    }
+
+    .immagine-profilo {
+            width: 100%;
+            padding-left: 10%;
+            padding-right: 10%;
+    }
+
+    .benvenuti {
+        font-size: 260%;  
+    }
+
+    .progetti {
+            margin-top: 10%
+        }
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    #intestazione {
+        background-image: url(./src/icona2.png);
+        background-repeat: no-repeat;
+        background-position: top right;
+        background-size:auto 90%;
+        padding-bottom: 5%;
+    }
+
+    h1 {
+        font-size: 350%;
+    }
+
+    h3 {
+        font-size: 150%;
+    }
+
+    p {
+        font-size: 120%;
+    }
+
+    .reduce-font {
+        font-size: 180%;
+    }
 }
 
 </style>

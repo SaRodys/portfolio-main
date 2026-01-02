@@ -1,6 +1,6 @@
 @import url(var.css);
 
-h2, p, a, .font-basic {
+h2, h5, h6, p, a, .font-basic {
     font-family: var(--h2);
 }
 
@@ -18,6 +18,10 @@ header, body {
 .primary-font {
     font-family: var(--h2);
     font-weight: bold;
+}
+
+.alternative-font {
+    font-family: var(--h3);
 }
 
 .title-font {
@@ -125,10 +129,6 @@ p {
 @media (min-width: 768px) and (max-width: 1024px) {
     .reduce-width {
         width: 6%;
-    }
-
-    .font-basic {
-        font-size: 100%;
     }
 
 }

@@ -91,7 +91,7 @@ skills.forEach(skill => {
           </div>
         </div>
         <div class="col-12">
-          <h4 class="text-center">${skill.name}</h4>
+          <h6 class="text-center">${skill.name}</h6>
         </div>
         <div class="col-12">
           <p class="mb-0 text-center mb-4">${stars}</p>

@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Sara Rodigari</title>
+    <meta name="author" content="Sara Rodigari">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/var.css">
+    <link rel="script" href="js/effect.js">    
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fascinate&family=Proza+Libre:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Sedan+SC&family=Vidaloka&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <script src="js/navbar.js"></script>
+        <nav-bar class="d-lg-none d-md-none"></nav-bar>    
+        
+        <div class="pt-5 mt-4 ml-lg-5 pl-4 pr-2 m-md-0 mr-md-5 margin-large bg-transparent" id="intestazione">
+            <div class="col-5 col-md-12 pb-5">
+                <div class="row align-items-center intro ">
+                    <h3 class="col-auto alternative-font mb-4">Portfolio 2025</h3> 
+                    <h3 class="col-auto alternative-font mb-4 d-none d-lg-block d-md-block">|</h3>
+                    <h3 class="col-auto alternative-font mb-4 d-none d-sm-block">Sara Rodigari</h3>
+                    <h3 class="col-auto alternative-font mb-4 d-none d-md-none d-lg-block d-md-block">|</h3>
+                    <div class="col-auto mb-4 d-none d-lg-block d-md-block">
+                        <a href="https://www.instagram.com/rodys__/"><img src="./src/instagram.png" alt="instagram logo" width="35%"></a>
+                        <a href="https://www.linkedin.com/in/sara-rodigari-7a56712bb/"><img src="./src/linkedin.png" alt="linkedin logo" width="39%"></a>
+                    </div>
+                </div>
+                <h1 class="mb-4 pb-lg-0 mt-lg-5 col-md-8 col-lg-6 pl-0">ABOUT ME</h1>
+                <a href="https://www.instagram.com/rodys__/" class="d-lg-none d-md-none"><img src="./src/instagram.png" alt="instagram logo" width="25%"></a>
+                <a href="https://www.linkedin.com/in/sara-rodigari-7a56712bb/" class="d-lg-none d-md-none"><img src="./src/linkedin.png" alt="linkedin logo" width="28%"></a>
+            </div>
+        </div>
+
+        <script src="js/navbar-desktop.js"></script>
+        <nav-bar-desktop class="d-none d-md-block d-lg-block"></nav-bar-desktop>
+    </header>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    <main>
+        <section class="mt-5">
+            <div class="progetti m-3 p-3 border-box rounded pt-lg-5 pl-lg-5 pr-lg-5">
+                <h2>Formazione</h2>
+                <div class="pl-4 row mt-5 mb-4">
+                    <div id="formazioni" class="row"></div>
+                    <script src="./js/formazione.js"></script>
+                </div>
+            </div>
+        </section>
+
+        <section class="mt-5">
+            <div class="progetti m-3 p-3 p-lg-5 border-box rounded">
+                <h2>Esperienze lavorative</h2>
+                <h6>Clicca sui pallini per sapere di che cosa mi sono occupata!</h6>
+                
+                <div id="timeline" class="pl-4 row mt-5 mb-4"></div>
+                <script src="js/timeline-data.js"></script>
+                <script src="js/timeline.js"></script>
+
+            </div>
+        </section>
+
+        <section class="mt-5">
+            <div class="progetti m-3 p-3 border-box rounded">
+                <h2>Lingue</h2>
+                <div id="lingue-section"></div>
+            </div>
+        </section>
+
+        <section class="mt-5">
+            <div id="softskills-section"></div> 
+        </section>
+
+        <section class="row ml-3 mt-4 mr-3 justify-content-between">
+            <div class="col-6 m-0 p-0 d-flex">
+                <div class="progetti p-3 mr-1 border-box rounded text-center w-100">
+                <h2 class="pl-2 pr-2">Hard skills</h2>
+                <div>
+                    <a href="#hardskill" class="text-link">Vai alla sezione dedicata alle hard skills</a>
+                    <br>
+                    <img src="./src/arrowL.png" alt="freccia indietro" width="20%" class="rounded-circle mt-3">
+                </div>
+                </div>
+            </div>
+            <div class="col-6 m-0 p-0 d-flex">
+                <div class="progetti p-3 ml-1 border-box rounded text-center w-100">
+                <h2>Attività sociali</h2>
+                <div>
+                    <p>Donatrice AVIS dal 2019</p>
+                    <br>
+                    <img src="./src/goccia.png" alt="goccia" width="20%" class="rounded-circle">
+                </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="mt-4 mb-5">
+            <div class="progetti m-3 p-3 border-box rounded">
+                <h2>Interessi</h2>
+                <div class="row text-center mt-4">
+                    <p class="col-6">Grafica 3D</p>
+                    <p class="col-6">Giardinaggio</p>
+                    <p class="col-6">Pallavolo</p>
+                    <p class="col-6">Bricolage</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="progetti">
+        <script src="js/footer.js"></script>
+        <footer-bar></footer-bar>
+    </footer>
+
+    <script src="./js/lingue.js"></script>
+    <script src="./js/soft.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+<style>   
+    body {
+        background-color: var(--bg-color);
+    }
+
+    #intestazione {
+        background-image: url(./src/webdesign.png);
+        background-repeat: no-repeat;
+        background-position: right;
+        background-size:auto 80%;
+    }
+
+    h1, h2 {
+        font-family: var(--h1);
+        font-weight: bold; 
+    }
+
+@media (max-width: 600px) {
+    h2 {
+        font-size: 1.9rem;
+    }
+
+    h1 {
+        font-size: 2.3rem;
+    }
+
+    h4 {
+        font-size: 1.2rem;
+    }
+}
+
+@media (min-width: 1300px) {
+    h2, h3 {
+        font-size: 250%;
+    }
+
+    h1{
+        font-size: 5.3rem;
+        font-weight: bold;;
+    }
+
+    h6 {
+        font-size: 150%;
+    }
+
+    p {
+        font-size: 120%;
+    }
+    
+    #intestazione {
+        background-size:auto 90%;
+    }
+}
+
+
+@media (min-width: 600px) and (max-width: 1300px) {
+    h1 {
+        font-size: 350%;
+    }
+
+    h3 {
+        font-size: 150%;
+    }
+
+    p {
+        font-size: 120%;
+    }
+}
+
+</style>

@@ -5,9 +5,8 @@ h2, h5, h6, p, a, .font-basic {
 }
 
 header, body {
-    background-image: url(../src/paper-texture.jpg);
+    background-image: url(../src/paper2.jpg);
     background-repeat: repeat;
-    background-position: right;
     background-size:100%;    
 }
 
@@ -69,6 +68,8 @@ p {
 
 .box:hover {
     transform: scale(1.05);
+    text-decoration: none;
+    color: var(--text-color);
 }
 
 .footerhover {
@@ -89,6 +90,61 @@ p {
     width: 100%;
     text-align: center;
 }
+
+.border-box {
+    border: 2px solid var(--bg-color-dark);
+}
+
+.lineaTempo {
+    position: relative;
+    border-left: 2px solid var(--bg-color-dark);
+}
+
+.puntino {
+    position: absolute;
+    top: 26px;      
+    left: -11px;    
+    width: 20px;
+    height: 20px;
+    background-color: var(--bg-color-dark);
+    border-radius: 50%;
+}
+
+.sottotesto {
+    font-size: 80%;
+    font-style: italic;
+}
+
+.dettagli {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease;
+}
+
+.lineaTempo.aperto .dettagli {
+    max-height: 300px;
+}
+
+.puntinoExpand {
+    position: absolute;
+    top: 26px;      
+    left: -11px;    
+    width: 20px;
+    height: 20px;
+    background-image: url(../src/arrow.png);
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size:auto 100%;
+    cursor: pointer;
+}
+
+.text-link {
+    color: var(--text-color);
+    text-decoration: underline;
+}
+
+
 
 
 
@@ -122,6 +178,36 @@ p {
 
     .skill-item:hover .skill-tooltip {
         opacity: 1;
+    }
+
+    .lineaTempo {
+        position: relative;
+        border-top: 2px solid var(--bg-color-dark);
+        border-left: 0px;
+    }
+
+    .puntino {
+        position: absolute;
+        top: -10px;      
+        left: 50%;    
+        width: 20px;
+        height: 20px;
+        background-color: var(--bg-color-dark);
+        border-radius: 50%;
+    }
+
+    .puntinoExpand {
+        position: absolute;
+        top: -10px;      
+        left: 50%;    
+        width: 20px;
+        height: 20px;
+        background-image: url(../src/arrow.png);
+        border-radius: 50%;
+        background-repeat: no-repeat;
+        background-position: right;
+        background-size:auto 100%;
+        cursor: pointer;
     }
 }
 

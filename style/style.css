@@ -144,6 +144,9 @@ p {
     text-decoration: underline;
 }
 
+.image {
+    width: 20%;
+}
 
 
 
@@ -209,12 +212,26 @@ p {
         background-size:auto 100%;
         cursor: pointer;
     }
+
+    .image {
+        width: 10%;
+    }
 }
 
 
 @media (min-width: 768px) and (max-width: 1024px) {
     .reduce-width {
         width: 6%;
+    }
+
+    .tablet-inline {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .tablet-inline img {
+        margin-left: 10px;
     }
 
 }

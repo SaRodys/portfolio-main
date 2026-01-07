@@ -8,7 +8,7 @@ class NavBarDesktop extends HTMLElement {
           </li>
           <li class="text-clight col-1">|</li>
           <li class="bg-menu p-1 col-2">
-            <a class="text-clight navhover bg-menu p-0 m-0 text-decoration-underline font-basic" href="about.html">ABOUT ME</a>
+            <a class="text-clight navhover bg-menu p-0 m-0 text-decoration-underline font-basic" href="about.html">CHI SONO</a>
           </li>
           <li class="text-clight col-1">|</li>
           <li class="bg-menu p-1 col-2">

@@ -26,7 +26,7 @@ class FooterBar extends HTMLElement {
                     </div>
 
                     <div class="col-6 col-md-3 col-lg-6 bg-menu p-0">
-                        <a href="about.html" class="text-clight footerhover">about me</a>
+                        <a href="about.html" class="text-clight footerhover">chi sono</a>
                     </div>
 
                     <div class="col-6 col-md-3 col-lg-6 bg-menu p-0">
@@ -41,6 +41,7 @@ class FooterBar extends HTMLElement {
         </div>
 
         <h6 class="bg-menu text-clight col-12 alternative-font">© 2025 - Sara Rodigari - Tutti i diritti riservati</h6>
+        <h6 class="bg-menu text-clight col-12 alternative-font">Sito web realizzato da Sara Rodigari</h6>
       </footer>
     `;
   }

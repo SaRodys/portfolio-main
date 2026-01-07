@@ -34,13 +34,19 @@ const softskills = [
 const softskillsSection = document.getElementById("softskills-section");
 
 softskillsSection.innerHTML = `
-<div class="progetti m-3 p-3 border-box rounded">
+<div class="progetti m-3 p-3 border-box rounded ml-lg-0">
     <h2>Soft skills</h2>
-    <div class="row pl-1 pr-1">
-      ${softskills.map(softskil => `
-        <div class="col-6 text-center mt-4">
-          <img class="rounded-circle w-25 mb-2" src="${softskil.img}" alt="${softskil.alt}">
-          <p>${softskil.name}</p>
-        </div>
+    <div>
+      <div class="row pl-1 pr-1 justify-content-center">
+        ${softskills.map(softskil => `
+<div class="col-6 text-center mt-4">
+  <div class="row justify-content-center">
+    <div class="col-5 col-lg-3">
+      <img class="img-fluid rounded-circle mb-2 softskill-img" src="${softskil.img}" alt="${softskil.alt}">
+    </div>
+    <p class="col-12 col-lg-9">${softskil.name}</p>
+  </div>
+</div>
+
     `).join("")}
 `;

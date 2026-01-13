@@ -71,6 +71,42 @@ const skills = [
     name: "DaVinci<br>Resolve",
     stars: 3,
     description: "Software per la post-produzione video, che integra montaggio, correzione colore, effetti visivi, grafica in movimento e missaggio audio."
+  },
+  {
+    img: "./src/gimp.png",
+    name: "Gimp",
+    stars: 4,
+    description: "Software per la manipolazione e creazione di immagini digitali."
+  },
+    {
+    img: "./src/google.png",
+    name: "Google Workspace",
+    stars: 5,
+    description: "Suite di strumenti di produttività e collaborazione, include google docs, gmail, meet, drive ecc.."
+  },
+    {
+    img: "./src/analytics.png",
+    name: "Google Analytics",
+    stars: 4,
+    description: "Piattaforma di analisi web che raccoglie, analizza e presenta dati sul comportamento degli utenti sui siti web e nelle app."
+  },
+    {
+    img: "./src/wix.png",
+    name: "Wix",
+    stars: 4,
+    description: "Piattaforma online per creare, gestire e sviluppare siti web profeessionali."
+  },
+  {
+    img: "./src/wordpress.png",
+    name: "Wordpress",
+    stars: 3,
+    description: "Sistema di gestione contenuti (CSM) che permette di creare e gestire siti web e blog."
+  },
+  {
+    img: "./src/trello.png",
+    name: "Trello",
+    stars: 5,
+    description: "Strumento di gestione del lavoro che aiuta team a organizzare progetti e flussi di lavoro in modo collaborativo e produttivo."
   }
 ];
 

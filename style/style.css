@@ -148,6 +148,127 @@ p {
     width: 20%;
 }
 
+.link-bg {
+    color: var(--text-color);
+}
+
+.link-bg:hover {
+    font-size: 110%;
+    transition: 0.4s ease;
+    text-decoration: underline;
+    color: var(--text-color);
+}
+
+.box-dark {
+    background-color: var(--bg-color-dark);
+    color: var(--text-color-light);
+}
+
+.box-shadow {
+    box-shadow: 0 4px 8px 0 rgba( 47, 46, 46, 0.4), 10px 6px 20px 0 rgba( 47, 46, 46, 0.4);
+}
+
+.slider-wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-top: 20%;
+}
+
+.slider-viewport {
+  overflow: hidden;
+  width: 100%;
+}
+
+.slider-track {
+  display: flex;
+  transition: transform 0.4s ease;
+}
+
+.slider-card {
+  min-width: 60%;
+  margin: 0 3%;
+}
+
+
+.slider-btn {
+  font-size: 30px;
+  cursor: pointer;
+  z-index: 10;
+}  
+
+.reduce-font {
+    font-size: 150%;
+    font-weight: normal;
+}
+
+.mobile-box {
+  width: 100%;
+  max-width: 400px; 
+  margin: 0 auto 2rem; 
+}
+
+.flip-card {
+  perspective: 1000px;
+  height: 500px;
+  overflow: hidden; 
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: auto;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+.flip-card-front,
+.flip-card-back{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    backface-visibility: hidden;
+    top: 0;
+    left: 0;
+}
+
+.flip-card-front img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.flip-card-back {
+  transform: rotateY(180deg);
+  overflow-y: auto; 
+}
+
+.mobile-box.expanded .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -216,6 +337,25 @@ p {
     .image {
         width: 10%;
     }
+
+    .slider-card {
+        min-width: 20%;
+        margin: 0 1%;
+    }
+
+    .slider-wrapper {
+        margin-top: 5%;
+    }
+
+    .margin-top-large {
+        margin-top: 10%;
+    }
+
+    .reduce-font {
+        font-size: 230%;
+        font-weight: normal;
+    }
+
 }
 
 

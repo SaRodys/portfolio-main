@@ -34,7 +34,7 @@ const softskills = [
 const softskillsSection = document.getElementById("softskills-section");
 
 softskillsSection.innerHTML = `
-<div class="progetti m-3 p-3 border-box rounded ml-lg-0">
+<div class="progetti m-3 p-3 border-box box-shadow rounded-4 ml-lg-0">
     <h2>Soft skills</h2>
     <div>
       <div class="row pl-1 pr-1 justify-content-center">

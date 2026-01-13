@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Sara Rodigari</title>
+    <meta name="author" content="Sara Rodigari">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/var.css">
+    <link rel="script" href="js/effect.js">    
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fascinate&family=Proza+Libre:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Sedan+SC&family=Vidaloka&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    
+</head>
+<body>
+    <header>
+        <script src="js/navbar.js"></script>
+        <nav-bar class="d-lg-none d-md-none"></nav-bar>    
+        
+        <div class="pt-5 mt-4 ml-lg-5 pl-4 pr-2 m-md-0 mr-md-5 margin-large bg-transparent mb-md-5" id="intestazione">
+            <div class="col-5 col-md-12 pb-5">
+                <div class="row align-items-center intro ">
+                    <h3 class="col-auto alternative-font mb-4">Portfolio 2025</h3> 
+                    <h3 class="col-auto alternative-font mb-4 d-none d-lg-block d-md-block">|</h3>
+                    <h3 class="col-auto alternative-font mb-4 d-none d-sm-block">Sara Rodigari</h3>
+                    <h3 class="col-auto alternative-font mb-4 d-none d-md-none d-lg-block d-md-block">|</h3>
+                    <div class="col-auto mb-4 d-none d-lg-block d-md-block">
+                        <a href="https://www.instagram.com/rodys__/"><img src="./src/instagram.png" alt="instagram logo" width="35%"></a>
+                        <a href="https://www.linkedin.com/in/sara-rodigari-7a56712bb/"><img src="./src/linkedin.png" alt="linkedin logo" width="39%"></a>
+                    </div>
+                </div>
+                <h1 class="mb-4 pb-lg-0 mt-lg-5 col-md-8 col-lg-6 pl-0">PROGETTI</h1>
+                <a href="https://www.instagram.com/rodys__/" class="d-lg-none d-md-none"><img src="./src/instagram.png" alt="instagram logo" width="25%"></a>
+                <a href="https://www.linkedin.com/in/sara-rodigari-7a56712bb/" class="d-lg-none d-md-none"><img src="./src/linkedin.png" alt="linkedin logo" width="28%"></a>
+            </div>
+        </div>
+
+        <script src="js/navbar-desktop.js"></script>
+        <nav-bar-desktop class="d-none d-md-block d-lg-block"></nav-bar-desktop>
+    </header>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    <main>
+        <div id="sliderContainer" class="mb-5"></div>
+        
+
+        <section class="mt-5 text-center">
+            <h2 class="margin-top-large mb-lg-5">WEB DESIGN</h2>
+            <p class="d-block d-md-none d-lg-none">Clicca sulle immagini del progetto per leggerne la descrizione</p>
+            
+            <div id="web-design-list"></div>
+
+        </section>
+
+        
+    </main>
+
+    <footer class="progetti">
+        <script src="js/footer.js"></script>
+        <footer-bar></footer-bar>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/project.js"></script>
+    <script src="./js/webDesignProject.js"></script>
+</body>
+</html>
+
+<style>   
+    body {
+        background-color: var(--bg-color);
+    }
+
+    #intestazione {
+        background-image: url(./src/portfolio.png);
+        background-repeat: no-repeat;
+        background-position: right;
+        background-size: 150%;
+    }
+
+    h1, h2 {
+        font-family: var(--h1);
+        font-weight: bold; 
+    }
+
+@media (max-width: 600px) {
+    h2 {
+        font-size: 1.9rem;
+    }
+
+    h1 {
+        font-size: 2.3rem;
+    }
+
+    h4 {
+        font-size: 1.2rem;
+    }
+
+    #intestazione {
+        background-size:auto 60%;
+        margin-right: 3%;
+    }
+
+    main {
+        margin-left: 9%;
+        margin-right: 9%;
+    }
+}
+
+@media (min-width: 1300px) {
+    h2, h3 {
+        font-size: 250%;
+    }
+
+    h1{
+        font-size: 5.3rem;
+        font-weight: bold;;
+    }
+
+    h6 {
+        font-size: 150%;
+    }
+
+    p {
+        font-size: 110%;
+    }
+    
+    #intestazione {
+        background-size:auto 100%;
+    }
+}
+
+
+@media (min-width: 600px) and (max-width: 1300px) {
+    h1 {
+        font-size: 350%;
+    }
+
+    h3 {
+        font-size: 150%;
+    }
+
+    p {
+        font-size: 120%;
+    }
+
+    body {
+        font-size: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    #intestazione {
+        background-image: url(./src/contatti2.png);
+        background-repeat: no-repeat;
+        background-position: bottom right;
+        background-size:auto 60%;
+    }
+}
+
+</style>
